@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="830" started-at="2018-03-26T04:24:01Z" finished-at="2018-03-26T04:24:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="830" started-at="2018-03-26T04:24:01Z" finished-at="2018-03-26T04:24:01Z">
+      <class name="com.GladMinds.practice.Datatesting">
+        <test-method status="FAIL" signature="Test(java.util.HashMap)[pri:0, instance:com.GladMinds.practice.Datatesting@3e6fa38a]" name="Test" duration-ms="802" started-at="2018-03-26T09:54:01Z" data-provider="mytestingdata" finished-at="2018-03-26T09:54:01Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[Data provider mismatchMethod: Test([Parameter{index=0, type=java.util.HashMap, declaredAnnotations=[]}])Arguments: [(java.util.HashMap) {ROLLNO=999.0, LASTNAME=KJKJ, MIDNAME=MD, ADDRESS=US, FIRSTNAME=HHP},null,null,null,null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: Data provider mismatchMethod: Test([Parameter{index=0, type=java.util.HashMap, declaredAnnotations=[]}])Arguments: [(java.util.HashMap) {ROLLNO=999.0, LASTNAME=KJKJ, MIDNAME=MD, ADDRESS=US, FIRSTNAME=HHP},null,null,null,null]at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)at org.testng.internal.Parameters.injectParameters(Parameters.java:796)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:973)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- com.GladMinds.practice.Datatesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
